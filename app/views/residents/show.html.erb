@@ -1,0 +1,6 @@
+# resident name, resident courses
+
+<%= @resident.name %>
+<% @resident.courses.each do | course | %>
+<%= course.name %>
+<% end %>
